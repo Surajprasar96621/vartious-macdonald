@@ -1,0 +1,53 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.order-container {
+    margin: 0 auto;
+    width: 300px;
+}
+
+#order-food {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.order-details {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#order-id {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#food-image {
+    width: 200px;
+    display: none;
+}
